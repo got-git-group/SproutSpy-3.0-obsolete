@@ -1,14 +1,16 @@
 // placeholder for future implementation
-import Calendar from '../../components/Calendar';
-import Header from '../../components/Header';
-import Nav from '../../components/Nav';
+import Header from '../Header';
+import Nav from '../Nav';
+import Calendar from '../Calendar';
+import Plants from '../Plants';
 
 const Home = () => {
     return (
         <>
-            <Calendar />
             <Header />
             <Nav />
+            <Calendar />
+            <Plants />
         </>
     )
 }
